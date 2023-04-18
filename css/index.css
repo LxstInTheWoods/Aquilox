@@ -14,8 +14,9 @@ body{
     margin: auto;
 }
 
-.SSINTRO img{
+.SSINTRO iframe{
     height: 25em;
+    width: 40em;
 }
 .SSINTRO *{
     color: white;

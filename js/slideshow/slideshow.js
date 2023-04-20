@@ -18,7 +18,7 @@ async function Set(){
   images[parseInt(v)].animate([{right:"0%"}], {duration:1500, fill:"forwards"})
 
             setTimeout(() => {
-                intres()
+                intres() 
             }, 1500);
 
 
@@ -47,6 +47,7 @@ async function Set(){
     })
 }
 
-Set()   
+Set()
+
 //in images[parseInt(v)  ].animate([{right:"0%"}], {duration:1500, fill:"forwards"})
 //out images[parseInt(v) + 1 ].animate([{right:"1000%"}], {duration:1500, fill:"forwards"})

@@ -12,6 +12,7 @@ body{
 .SSINTRO{
     width:fit-content;
     margin: auto;
+    opacity: 0;
 }
 
 .SSINTRO iframe{
@@ -25,7 +26,6 @@ body{
 }
 .SSINTRO #int_aqlx{
     font-size: 50px;
-
 }
 
 #aqxh1h2{

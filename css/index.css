@@ -44,14 +44,18 @@ h1{
 
 }
 
-.abtus div{
+.abdiv{
     border: solid rgb(34,34,34);
     border-radius: 9px;
-    height: 18em;
+    height: 18.3em;
     width: 18em;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(24, 24, 24);
     margin-left: 1em;
     margin-right: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 2em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
 }
 .abtus ul{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -62,8 +66,8 @@ h1{
     width:fit-content;
     margin: auto;
     position: relative;
-
     font-size: 25px;
+    margin-bottom: 0.3em;
 }
 
 .abtus p{
@@ -73,14 +77,21 @@ h1{
     margin:auto;
     text-align: center;
     position: relative;
+    margin-top: 6%;
 
 }
 .abtus img{
     display: block;
-    width: 55%;
+    width: 35%;
     margin: 0 auto;
     justify-content: center;
 }
 .abtus li{
     text-decoration: none;
+}
+
+#aboutholder{
+    display: flex;
+    width: max-content;
+    margin: auto;
 }

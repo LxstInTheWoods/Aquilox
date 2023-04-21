@@ -8,6 +8,7 @@ nav{
     padding-left: 1em;
     padding-top: 0.3em;
     padding-bottom: 0.5em;
+    height: 3em;
 }
 
 nav a{
@@ -31,4 +32,19 @@ nav a{
 
 #HOMEIMG{
     height: fit-content;
+}
+
+#floatright{
+    height: 100%;
+    float: right;
+}
+#floatright a{
+    padding: 0;
+}
+#floatright img{
+    padding-top: 0.2em;
+    height: 70%;
+    margin-right: 0.3em;
+    margin: auto;
+    nav-right: current;
 }

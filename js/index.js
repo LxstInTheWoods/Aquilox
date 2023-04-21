@@ -17,7 +17,7 @@ v.addEventListener("mouseenter", function(){
     v.animate([{backgroundColor:"#343434", borderColor:"white"}], {duration:250, fill:"forwards"})
 })
 v.addEventListener("mouseleave", function(){
-    v.animate([{backgroundColor:"rgb(34,34,34)", borderColor:"rgb(34,34,34)"}], {duration:250, fill:"forwards"})
+    v.animate([{backgroundColor:"rgb(24,24,24)", borderColor:"rgb(24,24,24)"}], {duration:250, fill:"forwards"})
 
 })
 }

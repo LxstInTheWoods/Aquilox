@@ -2,10 +2,33 @@ const thing = document.getElementById("SSINTRO")
 
 const divid_top = document.getElementById("divid_top")
 
+const typewrite = document.getElementById("csttpwrt2")
+
+
+
 thing.animate([{opacity:1}], {duration:500, fill:'forwards'})
 
 setTimeout(() => {
     divid_top.animate([{width:"85%"}], {duration:250, fill:"forwards"})
+
+    const str = "Bringing the game and the table."
+    var cur = ""
+    _ = async () =>{
+    for (const x of str)
+    {
+
+
+            let p = new Promise((r) =>{
+                setTimeout(() => {
+                    cur += x
+                    typewrite.textContent = cur
+                    r()
+                }, 7);
+            })
+            
+            await p.then(()=>{})
+    }
+};  _()
     
 }, 500);
 

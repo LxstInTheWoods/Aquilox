@@ -7,8 +7,6 @@ const image = document.getElementById("IMGG")
 var current = 0
 
 
-
-
 async function Set(){
     let p = new Promise( async (resolve) =>{
     for (const [v, x] of Object.entries(images))

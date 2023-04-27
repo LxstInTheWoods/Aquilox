@@ -34,20 +34,7 @@ nav a{
     height: fit-content;
 }
 
-#floatright{
-    display: inline-block;
-    height: 100%;
-    margin-left: 60em;
-    border: solid white;
-    width: 25%;
-}
-#floatright a{
-    padding: 0;
-}
-#floatright img{
-    padding-top: 0.2em;
-    height: 70%;
-    margin-right: 0.3em;
-    margin: auto;
-    nav-right: current;
+nav a{
+    margin-top: 0;
+    margin-bottom: 0;
 }

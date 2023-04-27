@@ -35,8 +35,11 @@ nav a{
 }
 
 #floatright{
+    display: inline-block;
     height: 100%;
-    float: right;
+    margin-left: 60em;
+    border: solid white;
+    width: 25%;
 }
 #floatright a{
     padding: 0;

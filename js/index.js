@@ -4,12 +4,15 @@ const divid_top = document.getElementById("divid_top")
 
 const typewrite = document.getElementById("csttpwrt2")
 
+const aqhead = document.getElementById("aqhead")
+
 
 
 thing.animate([{opacity:1}], {duration:500, fill:'forwards'})
 
 setTimeout(() => {
     divid_top.animate([{width:"85%"}], {duration:250, fill:"forwards"})
+    aqhead.animate([{opacity:1}], {duration:250, fill:"forwards"})
 
     const str = "Bringing the game and the table."
     var cur = ""
@@ -29,6 +32,8 @@ setTimeout(() => {
             await p.then(()=>{})
     }
 };  _()
+
+
     
 }, 500);
 

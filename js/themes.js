@@ -22,15 +22,16 @@ async function setpageheadtext(){
     {
         let p = new Promise((resolve) =>{
             setTimeout(() => {
-            underscore.style.opacity = 0
+
+            underscore.animate([{"opacity":0}], {duration:150, fill:'forwards'})
             setTimeout(() => {
                 resolve()
-            }, 250);
+            }, 500);
             }, 250);
         })
 
         await p.then((r)=>{
-            underscore.style.opacity = 1
+            underscore.animate([{"opacity":1}], {duration:150, fill:'forwards'})
             timer()
         })
 

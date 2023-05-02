@@ -49,4 +49,13 @@ v.addEventListener("mouseleave", function(){
 
 })
 }
+
+const dnld = document.getElementsByClassName("download")[0]
+dnld.addEventListener("mouseenter", ()=>{
+dnld.animate([{borderColor:"white"}], {duration:250, fill:"forwards"})
+})
+dnld.addEventListener("mouseleave", ()=>{
+    dnld.animate([{borderColor:"rgb(34,34,34)"}], {duration:250, fill:"forwards"})
+    })
+
 //basic af

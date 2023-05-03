@@ -7,7 +7,6 @@ const typewrite = document.getElementById("csttpwrt2")
 const aqhead = document.getElementById("aqhead")
 
 
-
 thing.animate([{opacity:1}], {duration:500, fill:'forwards'})
 
 setTimeout(() => {
@@ -38,7 +37,7 @@ setTimeout(() => {
 }, 500);
 
 
-console.log("ye")
+
 for (const [x, v] of Object.entries(document.getElementById("aboutholder").children))
 {
 v.addEventListener("mouseenter", function(){
@@ -52,10 +51,14 @@ v.addEventListener("mouseleave", function(){
 
 const dnld = document.getElementsByClassName("download")[0]
 dnld.addEventListener("mouseenter", ()=>{
-dnld.animate([{borderColor:"white"}], {duration:250, fill:"forwards"})
+dnld.animate([{boxShadow:"0 0 10px white, 0 0 30px white, 0 0 50px white"}], {duration:150, fill:"forwards"})
 })
 dnld.addEventListener("mouseleave", ()=>{
-    dnld.animate([{borderColor:"rgb(34,34,34)"}], {duration:250, fill:"forwards"})
-    })
+    dnld.animate([{boxShadow:"0 0 10px #115dd6, 0 0 30px #115dd6, 0 0 50px #115dd6"}], {duration:150, fill:"forwards"})
+})
+
+
+
+
 
 //basic af

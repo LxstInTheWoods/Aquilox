@@ -41,7 +41,6 @@ async function Set(){
 }) //end promise
 
     await p.then((r) =>{
-        console.log("Done")
         Set()
     })
 }

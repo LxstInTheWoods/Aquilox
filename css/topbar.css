@@ -16,23 +16,14 @@ nav a{
     margin-left: 0;
     margin-right: 0;
     color: #666666;
+    background-color: transparent;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 35px;
+    font-size: 22px;
     text-decoration: none;
     padding-right: 1em;
     vertical-align: middle;
 }
 
-#HOMEIMG>img{
-    margin: auto;
-    height: 2.4em;
-    vertical-align: middle;
-    margin-right: 0.3em;
-}
-
-#HOMEIMG{
-    height: fit-content;
-}
 
 nav a{
     margin-top: 0;

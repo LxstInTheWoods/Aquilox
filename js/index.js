@@ -11,10 +11,10 @@ const aqhead = document.getElementById("aqhead")
 thing.animate([{opacity:1}], {duration:500, fill:'forwards'})
 
 setTimeout(() => {
-    divid_top.animate([{width:"85%"}], {duration:250, fill:"forwards"})
+    divid_top.animate([{width:"85%"}], {duration:450, fill:"forwards"})
     aqhead.animate([{opacity:1}], {duration:250, fill:"forwards"})
 
-    const str = "Bringing the game and the table."
+    const str = "Bringing unlimited customization to lego cheating.."
     var cur = ""
     _ = async () =>{
     for (const x of str)

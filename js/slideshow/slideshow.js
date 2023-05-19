@@ -1,7 +1,8 @@
 const images = [
     document.getElementById("0"),
     document.getElementById("1"),
-    document.getElementById("2")
+    document.getElementById("2"),
+    document.getElementById("3")
 ]
 const image = document.getElementById("IMGG")
 var current = 0
@@ -40,7 +41,6 @@ async function Set(){
 }) //end promise
 
     await p.then((r) =>{
-        console.log("Done")
         Set()
     })
 }

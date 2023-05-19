@@ -9,3 +9,6 @@ body{
     border: none;
     width: 100%;
 }
+iframe{
+    height:10%;
+}

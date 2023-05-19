@@ -24,3 +24,5 @@ for(const x of topbar.getElementsByTagName("a"))
         x.animate([{color:"#666666"}], {duration:150, fill:"forwards"})
     })
 }
+
+
